@@ -8,26 +8,26 @@ body {
 }
 
 nav {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
- 
+
 nav a {
-margin-right: 20px;
-text-decoration: none;
-color: #1e4d6b;
-font-weight: 500;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1e4d6b;
 }
- 
+
 nav a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 h1 {
     color: #1e4d6b;
 }
 
-h2 {
-    margin-top: 35px;
+.tagline {
+    font-style: italic;
+    color: #666666;
 }
 
 .tagline {
