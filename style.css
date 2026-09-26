@@ -1,10 +1,10 @@
 body {
-    font-family: Georgia, serif;
+    font-family: Georgia, cambria;
     max-width: 850px;
     margin: auto;
     padding: 40px;
     line-height: 1.8;
-    color: #333333;
+    color: #e6c7ed;
     background-color: #5e185e;
 }
 
@@ -15,7 +15,7 @@ nav {
 nav a {
     margin-right: 20px;
     text-decoration: none;
-    color: #1e4d6b;
+    color: #edb634;
     font-weight: 500;
 }
 
@@ -24,11 +24,11 @@ nav a:hover {
 }
 
 h1 {
-    color: #1e4d6b;
+    color: ##edb634;
 }
 
 .tagline {
     font-size: 1.2em;
     font-style: italic;
-    color: #666666;
+    color: #e0dcdc;
 }
