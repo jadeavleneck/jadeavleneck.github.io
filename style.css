@@ -4,7 +4,7 @@ body {
     margin: auto;
     padding: 40px;
     line-height: 1.8;
-    color: ##ded7c5;
+    color: #ded7c5;
     background-color: #5e185e;
 }
 
@@ -29,6 +29,10 @@ h1 {
 
 h2 {
     color: #edcf87;
+}
+
+p {
+    color: #ded7c5;
 }
 
 .tagline {
