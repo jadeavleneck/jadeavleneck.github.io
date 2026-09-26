@@ -24,7 +24,11 @@ nav a:hover {
 }
 
 h1 {
-    color: ##edb634;
+    color: #edb634;
+}
+
+h2 {
+    color: #edcf87;
 }
 
 .tagline {
