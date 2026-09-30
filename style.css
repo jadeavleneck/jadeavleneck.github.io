@@ -23,12 +23,12 @@ The Codex
 		Threads
 
 .question-card {
-	background: #f5eedd
+	background: #f5eedd;
 	border:1px solid #fabb46;
 	padding: 20px;
 	margin: 20px auto;
 	max-width: 700px;
-border-radius: 10px;
+	border-radius: 10px;
 }
 
 body{
@@ -40,7 +40,7 @@ body{
 h1{
 	font-family:’Cormorant Garamond’, serif;
 	color: #ffd966;
-text-align: center;
+	text-align: center;
 	margin: auto;
 	font-weight: bold;
 }
