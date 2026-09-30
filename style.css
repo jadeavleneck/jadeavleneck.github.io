@@ -1,13 +1,14 @@
 nav {
 display: flex;
-justify-content:center;
-gap:40px;
+justify-content: center;
+gap: 40px;
 padding: 20px;
 }
 
 nav a {
 	color: #f8d798;
 	text-decoration: none; 
+	font-weight: bold;
 }
 
 nav a:hover {
@@ -24,25 +25,29 @@ The Codex
 
 .question-card {
 	background: #f5eedd;
+	color: #4b0f53;
 	border:1px solid #fabb46;
 	padding: 20px;
 	margin: 20px auto;
 	max-width: 700px;
-	border-radius: 10px;
+border-radius: 10px;
 }
 
 body{
 	background: #4b0f53;
 	color: #f4f0e8;
 	font-family: ‘Libre Baskerville’, serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
 }
 
 h1{
 	font-family:’Cormorant Garamond’, serif;
 	color: #ffd966;
-	text-align: center;
-	margin: auto;
-	font-weight: bold;
+text-align: center;
+	margin-top: 40px;
+	font-weight: 700;
 }
 
 h2, h3{
@@ -55,13 +60,15 @@ h2, h3{
 	border:1px solid #fabb46;
 	border-radius: 10px;
 	padding: 2rem;
+	max-width: 900px;
+	margin: 30ox auto;
 }
 
 .margin-note{
-	font-family: ‘Caveat’;
-	color: #92ad5c;
+	font-family: “Caveat”, cursive;
+	color: #b5d47b;
 	font-size: 1.3rem;
-	margin-top: 20px
+	margin-top: 20px;
 }
 
 .section-subtitle{
@@ -69,13 +76,31 @@ h2, h3{
 	font-style: italic;
 	font-size: 1.2rem;
 	max-width: 800px;
-	margin: auto;
+	margin: 0 auto 30px;
 }
 
 .subtitle{
 	font-style: italic;
 	font-size: 1.2rem;
 	max-width: 800px;
+	margin: 0 auto 30 px;
+}
+
+ul{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+section,
+main{
+	width: 90%;
+	max-width: 1100px;
 	margin: auto;
 }
 
+.home-image {
+	display: block;
+	margin: 30px auto;
+	max-width: 250px;
+	width: 100%
+}
