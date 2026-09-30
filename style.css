@@ -1,42 +1,81 @@
-body {
-    font-family: lucid, serif;
-    max-width: 850px;
-    margin: auto;
-    padding: 40px;
-    line-height: 1.8;
-    color: #ded7c5;
-    background-color: #5e185e;
-}
-
 nav {
-    margin-bottom: 30px;
+display: flex;
+justify-content:center;
+gap:40px;
+padding: 20px;
 }
 
 nav a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: #edb634;
-    font-weight: 500;
+	color: #f8d798;
+	text-decoration: none; 
 }
 
 nav a:hover {
-    text-decoration: underline;
+	color: #e3a736;
 }
 
-h1 {
-    color: #edb634;
+The Codex
+	Lucidity Originals
+	Current Works
+	Frameworks
+		Models
+		Papers
+		Threads
+
+.question-card {
+	background: #f5eedd
+	border:1px solid #fabb46;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 700px;
+border-radius: 10px;
 }
 
-h2 {
-    color: #edcf87;
+body{
+	background: #4b0f53;
+	color: #f4f0e8;
+	font-family: ‘Libre Baskerville’, serif;
 }
 
-p {
-    color: #ded7c5;
+h1{
+	font-family:’Cormorant Garamond’, serif;
+	color: #ffd966;
+text-align: center;
+	margin: auto;
+	font-weight: bold;
 }
 
-.tagline {
-    font-size: 1.2em;
-    font-style: italic;
-    color: #e0dcdc;
+h2, h3{
+	font-family:’Cormorant Garamond’, serif;
+	color: #ffd966;
 }
+
+.card{
+	background:rgba(255,255,255,.05)
+	border:1px solid #fabb46;
+	border-radius: 10px;
+	padding: 2rem;
+}
+
+.margin-note{
+	font-family: ‘Caveat’;
+	color: #92ad5c;
+	font-size: 1.3rem;
+	margin-top: 20px
+}
+
+.section-subtitle{
+	text-align: center;
+	font-style: italic;
+	font-size: 1.2rem;
+	max-width: 800px;
+	margin: auto;
+}
+
+.subtitle{
+	font-style: italic;
+	font-size: 1.2rem;
+	max-width: 800px;
+	margin: auto;
+}
+
