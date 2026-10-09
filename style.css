@@ -16,13 +16,14 @@ nav a:hover {
 	color: #e3a736;
 }
 
-The Codex
+/* The Codex
 	Lucidity Originals
 	Current Works
 	Frameworks
 		Models
 		Papers
 		Threads
+*/
 
 .question-card {
 	background: #f5eedd;
@@ -37,16 +38,16 @@ border-radius: 10px;
 body{
 	background: #4b0f53;
 	color: #f4f0e8;
-	font-family: ‘Libre Baskerville’, serif;
+	font-family: 'Libre Baskerville', serif;
 	margin: 0;
 	padding: 0;
 	line-height: 1.7;
 }
 
 h1{
-	font-family:’Cormorant Garamond’, serif;
+	font-family:'Cormorant Garamond', serif;
 	color: #ffd966;
-text-align: center;
+	text-align: center;
 	margin-top: 40px;
 	font-weight: 700;
 }
@@ -57,16 +58,17 @@ h2, h3{
 }
 
 .card{
-	background:rgba(255,255,255,.05)
+	background:rgba(255,255,255,.05);
 	border:1px solid #fabb46;
 	border-radius: 10px;
 	padding: 2rem;
 	max-width: 900px;
-	margin: 30ox auto;
+	margin: 30px auto;
+	backdrop-filter: blur(2px);
 }
 
 .margin-note{
-	font-family: “Caveat”, cursive;
+	font-family: 'Caveat', cursive;
 	color: #b5d47b;
 	font-size: 1.3rem;
 	margin-top: 20px;
@@ -84,7 +86,7 @@ h2, h3{
 	font-style: italic;
 	font-size: 1.2rem;
 	max-width: 800px;
-	margin: 0 auto 30 px;
+	margin: 0 auto 30px;
 }
 
 ul{
@@ -103,7 +105,7 @@ main{
 	display: block;
 	margin: 30px auto;
 	max-width: 250px;
-	width: 100%
+	width: 100%;
 }
 
 .reading-room section {
@@ -111,9 +113,9 @@ main{
 }
 
 .reading-room .card {
-	background: rgba (245, 238, 221, 0.08);
+	background: rgba(245, 238, 221, 0.08);
 	border-left: 4px solid #ffd996;
-	box shadow: 0 4px 14px rgba (0,0,0,0.2);
+	box-shadow: 0 4px 14px rgba (0,0,0,0.2);
 }
 
 .reading-room .margin-note {
@@ -121,5 +123,5 @@ main{
 	margin: 1rem auto;
 	padding: 1rem 1.5 rem;
 	border-left: 3px solid #b5d47b;
-	background: rgba (181, 212, 123, 0.08) ;
+	background: rgba(181, 212, 123, 0.08);
 }
