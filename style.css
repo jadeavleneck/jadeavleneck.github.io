@@ -59,6 +59,14 @@ body{
     padding: 2rem 4rem;
 }
 
+title{
+	font-family:'Cormorant Garamond', serif;
+	color: #ffd966;
+	text-align: center;
+	margin-top: 60px;
+	font-weight: 700;
+}
+
 h1{
 	font-family:'Cormorant Garamond', serif;
 	color: #ffd966;
