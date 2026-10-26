@@ -99,6 +99,7 @@ h2, h3{
 
 .section-subtitle{
 	text-align: center;
+	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
 	font-size: 1.2rem;
 	max-width: 800px;
@@ -106,6 +107,7 @@ h2, h3{
 }
 
 .subtitle{
+	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
 	font-size: 1.2rem;
 	max-width: 800px;
