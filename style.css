@@ -39,6 +39,7 @@ body{
 	background: #4b0f53;
 	color: #f4f0e8;
 	font-family: 'Libre Baskerville', serif;
+	font-size: 1rem;
 	margin: 0;
 	padding: 40px;
 	line-height: 1.7;
@@ -65,6 +66,8 @@ title{
 	text-align: center;
 	margin-top: 60px;
 	font-weight: 700;
+	font-size: 2.5rem;
+
 }
 
 h1{
@@ -73,11 +76,20 @@ h1{
 	text-align: center;
 	margin-top: 40px;
 	font-weight: 700;
+	font-size: 2rem;
+
 }
 
-h2, h3{
+h2{
 	font-family:’Cormorant Garamond’, serif;
 	color: #ffd966;
+	font-size: 1.5rem
+}
+
+h3{
+	font-family:’Cormorant Garamond’, serif;
+	color: #ffd966;
+	font-size: 1.25rem;
 }
 
 .card{
@@ -101,7 +113,7 @@ h2, h3{
 	text-align: center;
 	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
-	font-size: 1.2rem;
+	font-size: 1.125rem;
 	max-width: 800px;
 	margin: 0 auto 30px;
 }
@@ -109,7 +121,7 @@ h2, h3{
 .subtitle{
 	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	max-width: 800px;
 	margin: 0 auto 30px;
 }
